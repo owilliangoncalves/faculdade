@@ -1,0 +1,23 @@
+:root{
+    --cor-azul: #023a5d;
+}
+
+.box_form{
+    max-width: 800px;
+    min-width: 400px;
+    width: 100%;
+}
+
+.text-start{
+    color: var(--cor-azul);
+}
+
+.form-label{
+    color: var(--cor-azul);
+    font-size: 1.2rem;
+    font-weight: 650;
+}
+
+.form-control{
+    text-align: center;
+}

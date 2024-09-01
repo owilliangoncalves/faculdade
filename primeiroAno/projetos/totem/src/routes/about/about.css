@@ -1,0 +1,23 @@
+.dev__container img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.dev__container h3 {
+    margin-top: 0.5rem;
+}
+
+#pitch {
+    aspect-ratio: 16 / 9;
+}
+
+@media screen and (max-width: 600px) {
+    .dev__container img{
+        width: 64px;
+        height: 64px;
+    }
+    .dev__container h2 {
+        font-size: 1.2rem;
+    }
+}
